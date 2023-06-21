@@ -1,0 +1,11 @@
+{
+  "name": "jest-config",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "jest-environment-jsdom": "^29.5.0",
+    "ts-jest": "^29.0.5"
+  }
+}

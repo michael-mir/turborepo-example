@@ -1,0 +1,12 @@
+{
+  "name": "stylelint-config",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-standard": "^32.0.0",
+    "stylelint-order": "^6.0.3"
+  }
+}
