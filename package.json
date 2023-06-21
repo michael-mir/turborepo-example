@@ -5,7 +5,7 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "test": "turbo run test",
-    "lint": "eslint \"**/*.{ts,tsx}*\"",
+    "lint": "eslint \"**/*.{ts,tsx}\"",
     "format": "prettier --write \"**/*.{ts,tsx}\""
   },
   "devDependencies": {
