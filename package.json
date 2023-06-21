@@ -4,21 +4,21 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "lint": "turbo run lint",
     "test": "turbo run test",
+    "lint": "eslint \"**/*.{ts,tsx}*\"",
     "format": "prettier --write \"**/*.{ts,tsx}\""
   },
   "devDependencies": {
     "@turbo/gen": "^1.9.7",
-    "eslint": "^7.32.0",
+    "eslint": "^8.43.0",
     "eslint-config-base": "*",
     "eslint-config-turbo": "^1.9.3",
-    "prettier": "^2.5.1",
+    "prettier": "^2.8.8",
     "prettier-config": "*",
     "turbo": "^1.10.3"
   },
-  "packageManager": "yarn@1.22.19",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "tools/*"
   ]
 }
