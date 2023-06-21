@@ -6,11 +6,9 @@ This Turborepo includes the following packages:
 
 ### Packages
 
-- `ui`: a stub React component library
-- `jest-config`: `jest` configurations
+- `components`: a stub React component library
 - `prettier-config`: `prettier` configurations
 - `eslint-config-base`: `eslint` configurations
-- `stylelint-config`: `stylelint` configurations
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
 Each package is 100% [TypeScript](https://www.typescriptlang.org/).
@@ -20,10 +18,8 @@ Each package is 100% [TypeScript](https://www.typescriptlang.org/).
 This Turborepo has some additional tools already setup for you:
 
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [Stylelint](https://stylelint.io/) for styles linting
 - [Prettier](https://prettier.io) for code formatting
 - [ESLint](https://eslint.org/) for code linting
-- [Jest](https://jestjs.io/) for code testing
 
 ### Build
 
