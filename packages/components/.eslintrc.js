@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['base'],
+  extends: ['@michael-mir/tools-eslint'],
   parserOptions: {
     tsconfigRootDir: __dirname
   }

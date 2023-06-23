@@ -1,9 +1,11 @@
 {
-  "name": "eslint-config-base",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@michael-mir/tools-eslint",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/michael-mir/turborepo-example"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",

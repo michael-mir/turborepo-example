@@ -1,20 +1,23 @@
 {
-  "name": "components",
-  "version": "0.0.0",
+  "name": "@michael-mir/packages-components",
+  "version": "0.0.1",
+  "license": "MIT",
   "main": "./index.tsx",
   "types": "./index.tsx",
-  "license": "MIT",
   "scripts": {
     "lint": "eslint \"**/*.{ts,tsx}\"",
     "generate:component": "turbo gen react-component"
   },
+  "repository": {
+    "url": "https://github.com/michael-mir/turborepo-example"
+  },
   "devDependencies": {
+    "@michael-mir/tools-eslint": "*",
+    "@michael-mir/tools-tsconfig": "*",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "eslint": "^8.43.0",
-    "eslint-config-base": "*",
     "react": "^18.2.0",
-    "tsconfig": "*",
     "typescript": "^4.9.5"
   }
 }

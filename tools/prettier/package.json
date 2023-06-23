@@ -1,12 +1,8 @@
 {
-  "name": "@michael-mir/tools-tsconfig",
+  "name": "@michael-mir/tools-prettier",
   "version": "0.0.1",
   "license": "MIT",
-  "files": [
-    "base.json",
-    "nextjs.json",
-    "react.json"
-  ],
+  "main": "index.js",
   "repository": {
     "url": "https://github.com/michael-mir/turborepo-example"
   }
