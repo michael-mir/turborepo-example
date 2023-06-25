@@ -1,2 +1,1 @@
-const prettier = require('@michael-mir/tools-prettier');
-module.exports = prettier;
+module.exports = require('@michael-mir/tools-prettier');
