@@ -16,9 +16,9 @@
     "url": "https://github.com/michael-mir/turborepo-example"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.1",
     "@michael-mir/tools-eslint": "*",
     "@michael-mir/tools-prettier": "*",
-    "@changesets/cli": "^2.26.1",
     "@turbo/gen": "^1.10.3",
     "eslint": "^8.2.0",
     "eslint-config-base": "*",
