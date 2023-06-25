@@ -6,12 +6,10 @@ This Turborepo includes the following packages:
 
 ### Packages
 
-- `components`: a stub React component library
-- `prettier-config`: `prettier` configurations
-- `eslint-config-base`: `eslint` configurations
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
-
-Each package is 100% [TypeScript](https://www.typescriptlang.org/).
+- `@michael-mir/packages-components`: a stub React component library
+- `@michael-mir/tools-eslint`: `eslint` configurations
+- `@michael-mir/tools-prettier`: `prettier` configurations
+- `@michael-mir/tools-tsconfig`: `tsconfig.json`s used throughout the monorepo
 
 ### Utilities
 
@@ -33,19 +31,19 @@ To develop all apps and packages, run the following command:
 
 `yarn dev`
 
-### Remote Caching
+### Versionin & publishing
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+#### Add a new changeset
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+`changeset`
 
-`npx turbo login`
+#### Create new versions of packages
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+`changeset version`
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+#### Publish all changed packages to npm
 
-`npx turbo link`
+`changeset publish`
 
 ## How to run package scripts?
 
@@ -55,9 +53,9 @@ Next, you can link your Turborepo to your Remote Cache by running the following 
 
 Learn more about the power of Turborepo:
 
+- [Changesets](https://github.com/changesets/changesets/blob/main/packages/cli)
 - [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
 - [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
 - [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
