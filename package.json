@@ -9,9 +9,6 @@
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "release": "turbo run build lint test && changeset version && changeset publish"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
     "@michael-mir/tools-eslint": "*",

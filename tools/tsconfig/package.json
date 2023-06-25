@@ -1,12 +1,15 @@
 {
   "name": "@michael-mir/tools-tsconfig",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "files": [
     "base.json",
     "nextjs.json",
     "react.json"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "url": "https://github.com/michael-mir/turborepo-example"
   }
