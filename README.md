@@ -31,7 +31,7 @@ To develop all apps and packages, run the following command:
 
 `yarn dev`
 
-### Versionin & publishing
+### Versioning & publishing
 
 #### Add a new changeset
 
