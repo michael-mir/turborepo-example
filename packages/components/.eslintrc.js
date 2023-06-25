@@ -1,6 +1,9 @@
+const eslint = require('@michael-mir/tools-eslint');
+
 module.exports = {
-  extends: ['@michael-mir/tools-eslint'],
+  ...eslint,
   parserOptions: {
+    ...eslint.parserOptions,
     tsconfigRootDir: __dirname
   }
 };

@@ -1,2 +1,2 @@
-const prettier = require('prettier-config');
+const prettier = require('@michael-mir/tools-prettier');
 module.exports = prettier;

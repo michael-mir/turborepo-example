@@ -6,16 +6,18 @@
     "dev": "turbo run dev",
     "test": "turbo run test",
     "lint": "eslint \"**/*.{ts,tsx}\"",
-    "format": "prettier --write \"**/*.{ts,tsx}\""
+    "format": "prettier --write \"**/*.{ts,tsx}\"",
+    "publish-packages": "turbo run build lint test && changeset version && changeset publish"
   },
   "devDependencies": {
+    "@michael-mir/tools-eslint": "*",
+    "@michael-mir/tools-prettier": "*",
     "@changesets/cli": "^2.26.1",
-    "@turbo/gen": "^1.9.7",
-    "eslint": "^8.43.0",
+    "@turbo/gen": "^1.10.3",
+    "eslint": "^8.2.0",
     "eslint-config-base": "*",
-    "eslint-config-turbo": "^1.9.3",
+    "eslint-config-turbo": "^1.10.3",
     "prettier": "^2.8.8",
-    "prettier-config": "*",
     "turbo": "^1.10.3"
   },
   "workspaces": [

@@ -1,5 +1,8 @@
-import * as React from 'react';
+import type { FC } from 'react';
+import React from 'react';
 
-export const Header = ({ text }: { text: string }) => {
-  return <h1>{text}</h1>;
-};
+export interface HeaderProps {
+  text: string;
+}
+
+export const Header: FC<HeaderProps> = ({ text }) => <h1>{text}</h1>;

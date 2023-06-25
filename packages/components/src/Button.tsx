@@ -1,5 +1,8 @@
-import * as React from 'react';
+import type { ComponentPropsWithoutRef, FC } from 'react';
+import React from 'react';
 
-export const Button = () => {
-  return <button onClick={() => alert('boop')}>Boop</button>;
-};
+export const Button: FC<ComponentPropsWithoutRef<'button'>> = () => (
+  <button type='button' onClick={() => alert('boop')}>
+    Boop
+  </button>
+);

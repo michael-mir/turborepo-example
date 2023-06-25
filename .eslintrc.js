@@ -1,3 +1,6 @@
+const eslint = require('@michael-mir/tools-eslint');
+
 module.exports = {
-  extends: ['turbo', 'base']
+  ...eslint,
+  extends: [...eslint.extends, 'turbo']
 };
