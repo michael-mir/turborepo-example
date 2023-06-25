@@ -7,6 +7,9 @@
     "nextjs.json",
     "react.json"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "url": "https://github.com/michael-mir/turborepo-example"
   }

@@ -8,6 +8,9 @@
     "lint": "eslint \"**/*.{ts,tsx}\"",
     "generate:component": "turbo gen react-component"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "url": "https://github.com/michael-mir/turborepo-example"
   },

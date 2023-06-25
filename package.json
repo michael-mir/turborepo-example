@@ -9,6 +9,12 @@
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "publish-packages": "turbo run build lint test && changeset version && changeset publish"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "url": "https://github.com/michael-mir/turborepo-example"
+  },
   "devDependencies": {
     "@michael-mir/tools-eslint": "*",
     "@michael-mir/tools-prettier": "*",
