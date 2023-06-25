@@ -1,7 +1,7 @@
 # @michael-mir/tools-eslint
 
-## 0.0.1
+## 0.0.2
 
 ### Patch Changes
 
-- 1f83dcf: init
+- upd
