@@ -1,5 +1,9 @@
 # Turborepo example
 
+## Start
+
+`npm install turbo --global`
+
 ## What's inside?
 
 This Turborepo includes the following packages:
