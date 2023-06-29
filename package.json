@@ -1,6 +1,8 @@
 {
   "name": "turborepo-example",
+  "author": "Michael Mironychev <michael.mironychev@gmail.com>",
   "license": "MIT",
+  "private": true,
   "workspaces": [
     "packages/*",
     "tools/*"
@@ -15,21 +17,30 @@
     "lint": "eslint \"**/*.{ts,tsx}\"",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "release": "turbo run build lint test && changeset version && changeset publish",
-    "checkchange": "beachball check",
-    "change": "beachball change",
-    "bump": "beachball bump",
-    "b-publish": "beachball publish"
+    "a-info": "auto info",
+    "a-version": "auto version",
+    "a-changelog": "auto changelog",
+    "a-release": "auto release",
+    "b-checkchange": "beachball check",
+    "b-change": "beachball change",
+    "b-bump": "beachball bump",
+    "b-publish": "beachball publish --yes",
+    "c-changeset": "changeset",
+    "c-version": "changeset version",
+    "c-publish": "changeset publish"
   },
   "devDependencies": {
+    "@auto-it/all-contributors": "^10.46.0",
+    "@auto-it/conventional-commits": "^10.46.0",
     "@changesets/cli": "^2.26.1",
     "@michael-mir/tools-eslint": "*",
     "@michael-mir/tools-prettier": "*",
     "@turbo/gen": "^1.10.3",
+    "auto": "^10.46.0",
     "beachball": "^2.33.3",
     "eslint": "^8.2.0",
     "eslint-config-turbo": "^1.10.3",
     "prettier": "^2.8.8",
     "turbo": "^1.10.3"
-  },
-  "version": "0.0.0"
+  }
 }
