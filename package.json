@@ -14,7 +14,7 @@
     "checkchange": "beachball check",
     "change": "beachball change",
     "bump": "beachball bump",
-    "publish": "beachball publish"
+    "b-publish": "beachball publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
