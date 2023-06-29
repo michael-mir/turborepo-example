@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": ":hot_pepper: changelog",
+  "packageName": "@michael-mir/tools-prettier",
+  "email": "michael.mironychev@gmail.com",
+  "dependentChangeType": "patch"
+}
