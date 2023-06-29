@@ -1,17 +1,22 @@
 {
   "name": "@michael-mir/tools-eslint",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "index.js",
   "publishConfig": {
+    "access": "public",
     "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "url": "https://github.com/michael-mir/turborepo-example"
   },
+  "peerDependencies": {
+    "eslint": "^8.0"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.60.0",
     "@typescript-eslint/parser": "^5.60.0",
+    "eslint": "^8.2.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.8.0",

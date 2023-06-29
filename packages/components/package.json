@@ -1,6 +1,6 @@
 {
   "name": "@michael-mir/packages-components",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "./index.tsx",
   "types": "./index.tsx",
@@ -9,6 +9,7 @@
     "generate:component": "turbo gen react-component"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://npm.pkg.github.com"
   },
   "repository": {
@@ -21,8 +22,6 @@
     "@michael-mir/tools-eslint": "*",
     "@michael-mir/tools-tsconfig": "*",
     "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "eslint": "^8.2.0",
-    "typescript": "^4.9.5"
+    "@types/react-dom": "^18.2.0"
   }
 }

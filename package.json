@@ -7,15 +7,18 @@
     "test": "turbo run test",
     "lint": "eslint \"**/*.{ts,tsx}\"",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
-    "release": "turbo run build lint test && changeset version && changeset publish"
+    "release": "turbo run build lint test && changeset version && changeset publish",
+    "change": "beachball change",
+    "checkchange": "beachball check",
+    "publish": "beachball publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.1",
     "@michael-mir/tools-eslint": "*",
     "@michael-mir/tools-prettier": "*",
     "@turbo/gen": "^1.10.3",
+    "beachball": "^2.33.3",
     "eslint": "^8.2.0",
-    "eslint-config-base": "*",
     "eslint-config-turbo": "^1.10.3",
     "prettier": "^2.8.8",
     "turbo": "^1.10.3"
