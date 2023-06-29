@@ -1,6 +1,13 @@
 {
   "private": true,
   "name": "turborepo-example",
+  "workspaces": [
+    "packages/*",
+    "tools/*"
+  ],
+  "repository": {
+    "url": "https://github.com/michael-mir/turborepo-example"
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -22,9 +29,5 @@
     "eslint-config-turbo": "^1.10.3",
     "prettier": "^2.8.8",
     "turbo": "^1.10.3"
-  },
-  "workspaces": [
-    "packages/*",
-    "tools/*"
-  ]
+  }
 }
