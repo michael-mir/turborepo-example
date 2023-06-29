@@ -11,8 +11,9 @@
     "lint": "eslint \"**/*.{ts,tsx}\"",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "release": "turbo run build lint test && changeset version && changeset publish",
-    "change": "beachball change",
     "checkchange": "beachball check",
+    "change": "beachball change",
+    "bump": "beachball bump",
     "publish": "beachball publish"
   },
   "devDependencies": {
