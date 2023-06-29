@@ -18,7 +18,6 @@
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "release": "turbo run build lint test && changeset version && changeset publish",
     "a-info": "auto info",
-    "a-version": "auto version",
     "a-changelog": "auto changelog",
     "a-release": "auto release",
     "b-checkchange": "beachball check",

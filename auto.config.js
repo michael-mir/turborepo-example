@@ -14,7 +14,7 @@ const allContributorsOptions = {
 
 /** @type {import('@auto-it/conventional-commits').ConventionalCommitsOptions} */
 const conventionalCommitsOptions = {
-  preset: 'conventionalcommits',
+  preset: 'angular',
   defaultReleaseType: 'patch'
 };
 
