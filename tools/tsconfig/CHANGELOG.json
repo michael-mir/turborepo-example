@@ -2,6 +2,27 @@
   "name": "@michael-mir/tools-tsconfig",
   "entries": [
     {
+      "date": "Fri, 30 Jun 2023 05:50:38 GMT",
+      "tag": "@michael-mir/tools-tsconfig_v0.3.1",
+      "version": "0.3.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "michael.mironychev@gmail.com",
+            "package": "@michael-mir/tools-tsconfig",
+            "commit": "878c459cd97d969fc799e6d7095ac02cf6df8330",
+            "comment": ":hot_pepper: upd"
+          },
+          {
+            "author": "michael.mironychev@gmail.com",
+            "package": "@michael-mir/tools-tsconfig",
+            "commit": "not available",
+            "comment": ":hot_pepper: upd"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 29 Jun 2023 06:52:14 GMT",
       "tag": "@michael-mir/tools-tsconfig_v0.1.2",
       "version": "0.1.2",
