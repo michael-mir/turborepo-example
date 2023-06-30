@@ -1,0 +1,20 @@
+{
+  "name": "@michael-mir/tools-prettier",
+  "entries": [
+    {
+      "date": "Thu, 29 Jun 2023 06:52:14 GMT",
+      "tag": "@michael-mir/tools-prettier_v0.1.2",
+      "version": "0.1.2",
+      "comments": {
+        "patch": [
+          {
+            "author": "michael.mironychev@gmail.com",
+            "package": "@michael-mir/tools-prettier",
+            "commit": "9b41205ddbd920298465de8596a234c73f92bb7d",
+            "comment": ":hot_pepper: upd"
+          }
+        ]
+      }
+    }
+  ]
+}
